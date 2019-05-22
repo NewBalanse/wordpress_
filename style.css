@@ -1,0 +1,59 @@
+/*
+Theme Name: Theme Top Peak Digital
+Version: 0.0.1
+Description: TODO
+Author: NewBalanse
+*/
+
+body {
+    background-color: #eae1d2 !important;
+}
+
+#wpadminbar {
+    display: none;
+}
+
+.menu-menu1-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-menu1-container .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+@media only screen and (max-width: 425px){
+    .menu-menu1-container .menu {
+        flex-direction: column;
+    }
+}
+
+.menu-menu1-container .menu li {
+    padding: .2rem;
+    padding-bottom: 0;
+    margin-right: .6rem;
+    margin-left: .6rem;
+}
+
+.menu-menu1-container .menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.menu-menu1-container ul li :hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+#footer ul {
+    display: flex;
+    flex-direction: column !important;
+    list-style-image: url("./image/Layer-41.png");
+}
+
+#footer ul li a {
+    font-size: 15px;
+    color: #999999;
+}
